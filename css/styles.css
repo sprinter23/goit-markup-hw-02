@@ -97,7 +97,7 @@ li {
 
 /*  Peculiarities  */
 
-.peculiarities-item > li > h3 {
+.peculiarities-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -105,8 +105,7 @@ li {
   text-transform: uppercase;
 }
 
-.peculiarities-item > li > p {
-  font-weight: normal;
+.peculiarities-text {
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
@@ -130,14 +129,13 @@ li {
   line-height: 42px;
 }
 
-.team-item > h3 {
+.team-item .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
 }
 
-.team-item > p {
-  font-weight: normal;
+.team-item .position {
   font-size: 16px;
   line-height: 19px;
   color: var(--secondary-text-color);
@@ -197,14 +195,13 @@ li {
 
 /* Portfolio projects */
 
-.projects-item > li > h3 {
+.projects-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
 }
 
-.projects-item > li > p {
-  font-weight: normal;
+.projects-text {
   font-size: 16px;
   line-height: 30px;
   color: var(--secondary-text-color);
