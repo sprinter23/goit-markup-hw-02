@@ -3,30 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <title>Портфолио</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a class="logo" href="./index.html./"><span>Web</span>Studio</a>
-        <ul class="site-nav list">
-          <li><a class="link" href="./index.html">Студия</a></li>
-          <li><a class="link current" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="#">Контакты</a></li>
+      <a class="header-logo link" href="./index.html"><span>Web</span>Studio</a>
+      <nav class="header-nav">
+        <ul class="header-list list">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Студия</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link current" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="#">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li>
-          <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contacts list">
+        <li class="contacts-item">
+          <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li class="contacts-item">
+          <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -38,49 +46,61 @@
         <button type="button">Маркетинг</button>
       </section>
       <section class="projects">
-        <ul class="projects-item">
-          <li>
-            <img src="./images/website.jpg" alt="Технокряк" width="370" height="294" />
+        <ul class="projects-list list">
+          <li class="projects-item">
+            <img class="projects-img" src="./images/website.jpg" alt="Технокряк" width="370" height="294" />
             <h3 class="projects-title">Технокряк</h3>
             <p class="projects-text">Веб-сайты</p>
           </li>
-          <li>
-            <img src="./images/nba.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294" />
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/nba.jpg"
+              alt="Постер New Orlean vs Golden Star"
+              width="370"
+              height="294"
+            />
             <h3 class="projects-title">Постер New Orlean vs Golden Star</h3>
             <p class="projects-text">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/seafood.jpg" alt="Ресторан Seafood" width="370" height="294" />
+          <li class="projects-item">
+            <img class="projects-img" src="./images/seafood.jpg" alt="Ресторан Seafood" width="370" height="294" />
             <h3 class="projects-title">Ресторан Seafood</h3>
             <p class="projects-text">Приложения</p>
           </li>
-          <li>
-            <img src="./images/headphones.jpg" alt="Проект Prime" width="370" height="294" />
+          <li class="projects-item">
+            <img class="projects-img" src="./images/headphones.jpg" alt="Проект Prime" width="370" height="294" />
             <h3 class="projects-title">Проект Prime</h3>
             <p class="projects-text">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/box.jpg" alt="Проект Boxes" width="370" height="294" />
+          <li class="projects-item">
+            <img class="projects-img" src="./images/box.jpg" alt="Проект Boxes" width="370" height="294" />
             <h3 class="projects-title">Проект Boxes</h3>
             <p class="projects-text">Приложения</p>
           </li>
-          <li>
-            <img src="./images/monitor.jpg" alt="Inspiration has no Borders" width="370" height="294" />
+          <li class="projects-item">
+            <img
+              class="projects-img"
+              src="./images/monitor.jpg"
+              alt="Inspiration has no Borders"
+              width="370"
+              height="294"
+            />
             <h3 class="projects-title">Inspiration has no Borders</h3>
             <p class="projects-text">Веб-сайты</p>
           </li>
-          <li>
-            <img src="./images/book.jpg" alt="Издание Limited Edition" width="370" height="294" />
+          <li class="projects-item">
+            <img class="projects-img" src="./images/book.jpg" alt="Издание Limited Edition" width="370" height="294" />
             <h3 class="projects-title">Издание Limited Edition</h3>
             <p class="projects-text">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/lab.jpg" alt="Проект LAB" width="370" height="294" />
+          <li class="projects-item">
+            <img class="projects-img" src="./images/lab.jpg" alt="Проект LAB" width="370" height="294" />
             <h3 class="projects-title">Проект LAB</h3>
             <p class="projects-text">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/laptop.jpg" alt="Growing Business" width="370" height="294" />
+          <li class="projects-item">
+            <img class="projects-img" src="./images/laptop.jpg" alt="Growing Business" width="370" height="294" />
             <h3 class="projects-title">Growing Business</h3>
             <p class="projects-text">Приложения</p>
           </li>
@@ -88,23 +108,23 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="logo-footer" href="./index.html"><span>Web</span>Studio</a>
+      <a class="logo-footer link" href="./index.html"><span>Web</span>Studio</a>
       <address class="address">
-        <ul>
-          <li>
+        <ul class="address-list list">
+          <li class="address-item">
             <a
-              class="address-text"
+              class="address-link link"
               href="https://goo.gl/maps/YnTkpTPDZ5KFQ8r79"
               target="_blank"
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
-            <a class="footer-contacts-link" href="mailto:info@example.com">info@example.com</a>
+          <li class="address-item">
+            <a class="footer-contacts-link link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li>
-            <a class="footer-contacts-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          <li class="address-item">
+            <a class="footer-contacts-link link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
