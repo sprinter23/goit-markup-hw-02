@@ -25,6 +25,19 @@ body {
   list-style-type: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* ==========Header===========*/
 .header {
   background-color: var(--header-color);
@@ -201,7 +214,7 @@ body {
 
 /* Portfolio button */
 
-.button > button {
+.button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -213,8 +226,8 @@ body {
   background-color: var(--first-btn-color);
 }
 
-.button > button:hover,
-.button > button:focus {
+.button:hover,
+.button:focus {
   color: var(--primary-color);
   background-color: var(--accent-color);
 }
